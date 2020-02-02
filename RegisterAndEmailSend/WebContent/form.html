@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+body{
+
+    background-image: url('/image/snow-1030928_960_720.webp');
+    background-size: cover;
+    background-color: pink;
+}
+form{
+    
+    border: 2px solid black;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-image: url('/');
+    background-size: cover;
+    color: black;
+    font-family: cursive;
+}
+input[type="text"],input[type="text"],input[type="email"]{
+
+    width: 220px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    border: solid black;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    outline: none;
+}
+input[type="submit"]:hover{
+
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+</style>
+    
+</head>
+<body>
+
+  <form action="Register" method="post">
+<h2>Register Here</h2>
+<div>
+        <label for="">User Name</label> <br>
+        <input type="text" name="username" id=""  required>
+       
+</div>
+<div>
+        <label for="">Gender</label> <br>
+       <input type="radio" name="gender" id="" value="male">Male
+       <input type="radio" name="gender" id=""  value="female">Female
+        
+</div>
+<div>
+        <label for="">YOP:</label><br>
+        <input type="text" name="yop" id="" required>
+</div>
+<div>
+        <label for="">Email:</label><br>
+        <input type="email" name="email" id="" required>
+</div>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
